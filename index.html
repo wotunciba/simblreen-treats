@@ -63,7 +63,7 @@
 
 <div class="container" id="scene">
   <h1>Find the Treat!</h1>
-  <img src="your-image.jpg" alt="Halloween street">
+  <img src="simblreen treat image 1.png" alt="Halloween street">
   
   <!-- 点击区域（示例坐标） -->
   <div class="click-zone" id="treat" style="top:60%; left:40%; width:8%; height:10%;"></div>
@@ -92,6 +92,8 @@ document.getElementById('treat').addEventListener('click', () => {
   });
 });
 
+// trick区：跳转到图片
+
 // 其他区域：显示漂浮文字
 scene.addEventListener('click', e => {
   if (!e.target.classList.contains('click-zone')) {
@@ -114,4 +116,5 @@ scene.addEventListener('click', e => {
 
 </body>
 </html>
+
 
